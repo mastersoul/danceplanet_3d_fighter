@@ -1,4 +1,4 @@
 
 export default function Universe() {
-  return <h1>Universe Page</h1>;
+  return <h1 style={{ padding: "40px" }}>Universe Overview</h1>;
 }
