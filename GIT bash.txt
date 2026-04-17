@@ -1,0 +1,9 @@
+git add .
+git commit -m "Fresh build after Vercel reset"
+git push
+
+
+
+# Full build (audio + video + GLB + HTML + vercel_dist)
+python generate_danceplanet_full.py --fast
+
